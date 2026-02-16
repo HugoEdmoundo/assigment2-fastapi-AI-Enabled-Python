@@ -19,7 +19,7 @@ app.add_middleware(
 
 @app.get("/")
 def get_root():
-    return {"message": "Assigment2-fastapi-AI-Enabled-Python  MUHAMMAD ZIYAD HASAN"}
+    return {"message": "Assigment2-fastapi-AI-Enabled-Python  - MUHAMMAD ZIYAD HASAN"}
 
 
 app.include_router(books_router)
